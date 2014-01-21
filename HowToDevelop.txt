@@ -1,0 +1,23 @@
+Just for those who might not know.
+
+Developing on the Galileo Linux is difficult unless you love vi. I have been developing on my Windows system, here is how:
+
+1. connect the Galileo to a network.
+    - I just plug in the Galileo to an Ethernet cable that is connected to my home router.
+    - You can connect it directly into a laptop if you have an Ethernet cable, but you will have to use static IP addresses.
+
+2. Open up a SCP connection using winSCP (winscp.net/.../download.php)
+    - in winSCP download the files onto the Galileo board, and then open them from winSCP with your favorite Text editor (I use Notepad++)
+    - Doing this will allow you to save from your editor and it will automatically be downloaded onto your Galileo.
+    - Make sure you are saving the file with UNIX End Of Line (in notepad Edit->EOL Conversion -> Unix
+
+3. Open up a serial console (or ssh connection) and run the script from there.
+
+4. If you need to stop the script you can try CTRL+C this sometimes works.
+     - If that does not work, then you can use your pause button (next to the scroll lock) this will pause the execution of the script.
+     - once it is paused, you can run top to see the process id. (it will have name of the script in the description)
+     - Kill the process by using the command: bg; kill process#
+
+Repeat editing and running until it works like you want it to.
+
+I am fairly new at this so there might be better solutions, if so please let me know.
