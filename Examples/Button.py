@@ -5,7 +5,7 @@ galileo_path = "/media/mmcblk0p1/";
 if galileo_path not in sys.path:
     sys.path.append(galileo_path);
 
-from galileo import *
+from pyGalileo import *
 '''/*
   Button
  
