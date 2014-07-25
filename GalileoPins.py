@@ -722,7 +722,7 @@ class GalileoPins:
                 if(not (os.path.exists("/sys/class/gpio/gpio" + self._mux2Pin + "/"))):
                     if(DEBUG): print("Enabling IO " + str(self.name) + "(GPIO " + self._mux2Pin + ")" );
                     #this will create the directory for the GPIO pin
-                    self.self._WriteFile("/sys/class/gpio/export",self._mux2Pin);
+                    self._WriteFile("/sys/class/gpio/export",self._mux2Pin);
                     if(DEBUG):
                         #check that the directory was created
                         if(not (os.path.exists("/sys/class/gpio/gpio" + self._mux2Pin+ "/"))):
