@@ -7,7 +7,7 @@ How to use:
 1. You will need a micro SD card with a Linux image on it: 
     - Format the SD card with a file system of FAT or FAT32.
     - Copy the Linux image onto the card 
-        - Download from: http://downloadmirror.intel.com/23171/eng/LINUX_IMAGE_FOR_SD_Intel_Galileo_v0.7.5.7z
+        - Download from: http://downloadmirror.intel.com/24000/eng/LINUX_IMAGE_FOR_SD_Intel_Galileo_v1.0.2.zip
 
 2. Download this repository from the git server.
     - https://github.com/galileo-chofrock/pyGalileo
